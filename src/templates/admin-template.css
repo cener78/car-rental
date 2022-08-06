@@ -1,0 +1,10 @@
+.admin-template .sidebar{
+    background-color: var(--color2);
+    height: 100vh;
+}
+
+@media(max-width: 991px){
+    .admin-template .sidebar{
+        height: auto;
+    }
+}

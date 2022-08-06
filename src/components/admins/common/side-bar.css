@@ -1,0 +1,47 @@
+.admin-navbar{
+    padding:2rem;
+}
+
+.admin-navbar ul{
+    margin:0;
+    padding: 0;
+    display:inline-block;
+    margin-top:2rem;
+}
+
+.admin-navbar ul li{
+    text-align: left;
+    line-height: 2.5rem;
+    font-size: 1.1rem;
+}
+
+.admin-navbar .nav-link{
+    color: white !important;
+}
+
+.admin-navbar .nav-link svg{
+    color: var(--color1);
+}
+
+
+@media(min-width: 992px){
+
+    .admin-navbar .navbar-nav{
+        flex-direction: column !important;
+    }
+
+    .admin-navbar > .container{
+        display: block !important;
+        padding: 2rem 0;
+    }
+}
+
+@media(max-width: 500px){
+    .img-fluid {
+        width: 70%;
+    }
+
+}
+
+
+
